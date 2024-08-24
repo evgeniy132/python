@@ -27,9 +27,12 @@ while True:
     elif len(input_letter_or_words) > 1:
         if input_letter_or_words == random_word:
             print(f"Вітаю ви вгадали слово - це слово {input_letter_or_words}")
+            break
         else:
             count_guess -= 1
             print("Ви не вгадали слово")
             print(f"У вас лишилось {count_guess} спроб")
+
+
 
 
